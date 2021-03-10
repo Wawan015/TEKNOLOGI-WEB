@@ -16,36 +16,43 @@
 <body>
 
     <div class="navbar" style="background-image:url('media/bgbatik.jpg'); margin: 0px">
-            <div class="text-center">
-                <img src="media/android-logo-12426.png" width="120">
+        <div class="text-center">
+            <img src="media/android-logo-12426.png" width="120">
+        </div>
+        <div class="text-center">
+            <h2 style="color: aliceblue; font-size:50px; font-family: Techno, Impact, sans-serif;">W1 Ponsel</h2>
+            <h4 style="color: aliceblue; font-size:15px;  font-family: Techno, Impact, sans-serif;">Melayani Dengan Sepenuh Hati</h4>
+        </div>
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-            <div class="text-center">
-                <h2 style="color: aliceblue; font-size:50px; font-family: Techno, Impact, sans-serif;">W1 Ponsel</h2>
-                <h4 style="color: aliceblue; font-size:15px;  font-family: Techno, Impact, sans-serif;">Melayani Dengan Sepenuh Hati</h4>
+            <div class="collapse navbar-collapse" id=myNavbar>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.php">Beranda</a></li>
+                    <li><a href="https://g.page/greace-bali?share">Alamat</a></li>
+                    <li><a href="#">Bantuan</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown"> Lainnya <span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="fibonacci.php">Fibonacci</a></li>
+                            <li><a href="aritmatik.php">Aritmatika</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="daftar.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
             </div>
         </div>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id=myNavbar>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php">Beranda</a></li>
-                        <li><a href="https://g.page/greace-bali?share">Alamat</a></li>
-                        <li><a href="#">Bantuan</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="daftar.php"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-                        <li><a href="login.php"><span class="glyphicon gliphicon-log-in"></span>Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    </nav>
 
     <div class="container">
 
@@ -79,26 +86,19 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
-
-
-
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-sm-12 " style="width: 48%; ">
 
-               
+
                 <div>
                     <textarea name="komentar" rows="10" cols="50" placeholder="Komentar"></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Tambahkan Komentar" />
+                    <input type="submit" name="komentar" value="Tambahkan Komentar" />
                 </div>
             </div>
 
@@ -107,12 +107,10 @@
             <div class="col-sm-12 text-center" style="margin-top: 10px;">
 
                 <p class="text-muted" style="color: white;">2021 Wawan Ponsel . All rights reserved</p>
-                
+
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>

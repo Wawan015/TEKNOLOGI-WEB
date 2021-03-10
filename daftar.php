@@ -22,7 +22,7 @@
 
 <body>
     <div class="container">
-    <div class="navbar" style="background-image:url('media/bgbatik.jpg'); margin: 0px">
+        <div class="navbar" style="background-image:url('media/bgbatik.jpg'); margin: 0px">
             <div class="text-center">
                 <img src="media/android-logo-12426.png" width="120">
             </div>
@@ -42,13 +42,20 @@
                 </div>
                 <div class="collapse navbar-collapse" id=myNavbar>
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php">Beranda</a></li>
-                        <li><a href="#">Alamat</a></li>
+                        <li><a href="index.php">Beranda</a></li>
+                        <li><a href="https://g.page/greace-bali?share">Alamat</a></li>
                         <li><a href="#">Bantuan</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown"> Lainnya <span class="caret"></span></a>
+                            <ul class="dropdown-menu ">
+                                <li><a href="fibonacci.php">Fibonacci</a></li>
+                                <li><a href="aritmatik.php">Aritmatika</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="daftar.php"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-                        <li><a href="#"><span class="glyphicon gliphicon-log-in"></span>Login</a></li>
+                        <li class="active"><a href="daftar.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
                 </div>
             </div>

@@ -22,7 +22,7 @@
             <form id="loginForm">
                 <div class="input-wrapper">
                     <label>Username</label>
-                    <input type="email" class="form-control" placeholder="example@domain.com" name="email">
+                    <input type="email" placeholder="example@domain.com" name="email">
                     <div class="error-email">
                         <div class="email-msg"></div>
 
@@ -47,13 +47,10 @@
             </form>
         </div>
     </div>
-    <div class="confirmation">
-        <p>BERHASIL LOGIN</p>
-    </div>
     <script>
         $(function() {
             $(".error-pass, .error-email").hide();
-            
+
         })
 
         function checkEmail(email) {
@@ -88,7 +85,7 @@
                 $(".error-email, .error-pass").fadeOut();
             }, 2000)
 
-        
+
         }
     </script>
 </body>
